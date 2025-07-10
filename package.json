@@ -1,9 +1,32 @@
 {
+  "name": "trabajo_practico_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleeCruz/Trabajo_Practico_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleeCruz/Trabajo_Practico_1/issues"
+  },
+  "homepage": "https://github.com/AleeCruz/Trabajo_Practico_1#readme",
   "dependencies": {
     "dat.gui": "^0.7.9",
     "three": "^0.176.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^6.3.5"
   }
 }

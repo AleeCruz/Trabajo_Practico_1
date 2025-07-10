@@ -33,7 +33,7 @@ scene.add(new THREE.Line(curvaGeometry, new THREE.LineBasicMaterial({ color: 0xf
 
 // --- Cargar modelo del auto ---
 const loader = new GLTFLoader();
-loader.load('/modelos/car_model.glb', (gltf) => {
+loader.load('modelos/car_model.glb', (gltf) => {
     const model = gltf.scene;
     model.scale.set(0.001, 0.001, 0.001);
 

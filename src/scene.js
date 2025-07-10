@@ -133,12 +133,12 @@ for (let i = 0; i < cantidadLamparas; i++) {
 let materialArray = [];
 const tgaLoader = new TGALoader();
 
-let texture_ft = tgaLoader.load("/assets/skybox/stormydays_ft.tga");
-let texture_bk = tgaLoader.load("/assets/skybox/stormydays_bk.tga");
-let texture_up = tgaLoader.load("/assets/skybox/stormydays_up.tga");
-let texture_dn = tgaLoader.load("/assets/skybox/stormydays_dn.tga");
-let texture_rt = tgaLoader.load("/assets/skybox/stormydays_rt.tga");
-let texture_lf = tgaLoader.load("/assets/skybox/stormydays_lf.tga");
+let texture_ft = tgaLoader.load("assets/skybox/stormydays_ft.tga");
+let texture_bk = tgaLoader.load("assets/skybox/stormydays_bk.tga");
+let texture_up = tgaLoader.load("assets/skybox/stormydays_up.tga");
+let texture_dn = tgaLoader.load("assets/skybox/stormydays_dn.tga");
+let texture_rt = tgaLoader.load("assets/skybox/stormydays_rt.tga");
+let texture_lf = tgaLoader.load("assets/skybox/stormydays_lf.tga");
 
 
 materialArray.push(new THREE.MeshBasicMaterial({ map: texture_ft })); // +Z
